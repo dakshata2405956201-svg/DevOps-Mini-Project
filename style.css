@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    margin: 0;
+    padding: 40px 16px;
+}
+
+.container {
+    max-width: 550px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border: 1px solid #dbe2ea;
+}
+
+h1 {
+    color: #1a4b7c;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #aaa;
+}
+
+button {
+    padding: 12px 16px;
+    background: #1a4b7c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    margin-top: 12px;
+    padding: 12px;
+    background: #f1f5f9;
+    overflow-wrap: anywhere;
+}
